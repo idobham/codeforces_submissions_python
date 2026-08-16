@@ -1,0 +1,7 @@
+total = int(input())
+cubes = list(map(int, input().split()))
+result = str(sorted(cubes))
+result = result.replace('[', '' )
+result = result.replace(']', '' )
+result = result.replace(',', '')
+print(result)
